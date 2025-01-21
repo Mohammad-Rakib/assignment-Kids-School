@@ -72,3 +72,71 @@
     padding: 10px 60px ;
     margin: 26px 186px 26px 141px ;
 }
+.banner-title{
+    font-size: 56px;
+}
+#Empowering{
+    color: rgba(254, 163, 1, 1);
+}
+#towards-vision{
+    color: rgba(1, 172, 253, 1);
+}
+.btn-banner{
+    border: none;
+    padding: 10px 47px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 12px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(17, 17, 17, 1);
+}
+.banner{
+    margin: 0 141px;
+    align-items: center;
+}
+
+.section-title{
+    font-size: 46px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.curriculum-img{
+    background-image: url('../assets/bg.png');
+}
+.curriculum-container{
+    display: flex;
+    text-align: center;
+    width: 1440px;
+    height: 489px;
+
+}
+.Kinder{
+    width: 367px;
+    height: 476px;
+    margin: 80px 140px;
+}
+
+.Elementary{
+    width: 367px;
+    height: 476px;
+    margin: 80px;
+}
+.Middle{
+    width: 367px;
+    height: 476px;
+    margin: 80px ;
+    margin-right:140px ;
+}
+@media screen and (max-width:576px){
+    .banner, .nav-links, .navbar{
+        flex-direction: column;
+    }
+    .brand{
+        display: none;
+    }
+    .logo{
+        margin-left:16px ;
+        margin-right: 282px;
+    }
+}
